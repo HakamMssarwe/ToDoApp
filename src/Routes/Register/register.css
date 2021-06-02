@@ -1,0 +1,93 @@
+.Register {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+.Register .left-child {
+	width: 100%;
+	padding: 0.3em;
+	margin-top: 0.5em;
+}
+
+.Register .left-child img {
+	width: 100%;
+	height: 300px;
+}
+
+.Register .right-child {
+	width: 100%;
+	height: 700px;
+	margin-top: 2em;
+	padding-top: 7em;
+	background: rgb(255, 255, 255);
+	background: -moz-linear-gradient(180deg, rgba(255, 255, 255, 1) 0%, rgba(243, 243, 243, 1) 50%, rgba(217, 217, 217, 1) 100%);
+	background: -webkit-linear-gradient(180deg, rgba(255, 255, 255, 1) 0%, rgba(243, 243, 243, 1) 50%, rgba(217, 217, 217, 1) 100%);
+	background: linear-gradient(180deg, rgba(255, 255, 255, 1) 0%, rgba(243, 243, 243, 1) 50%, rgba(217, 217, 217, 1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff",endColorstr="#d9d9d9",GradientType=1);
+}
+
+.Register .right-child form {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	font-size: 1.3em;
+}
+
+.Register .right-child label {
+	width: 70%;
+	color: rgb(63, 61, 86);
+}
+
+.Register .right-child form input,
+button {
+	margin-bottom: 1em;
+	width: 70%;
+	height: 3em;
+	cursor: pointer;
+	padding: 0.2em;
+}
+
+.Register .right-child form button {
+	font-size: 0.7em;
+	background-color: #f9a826;
+	border: none;
+	border-radius: 5px;
+	color: white;
+}
+
+.Register .right-child form p {
+	color: rgb(63, 61, 86);
+	font-size: 0.75em;
+}
+
+@media only screen and (min-width: 1081px) {
+	.Register {
+		flex-direction: row;
+		height: 100vh;
+	}
+
+	.Register .right-child {
+		margin: 0;
+		padding-top: 0;
+		height: 100%;
+		background: rgb(255, 255, 255);
+		background: -moz-linear-gradient(90deg, rgba(255, 255, 255, 1) 0%, rgba(243, 243, 243, 1) 50%, rgba(217, 217, 217, 1) 100%);
+		background: -webkit-linear-gradient(90deg, rgba(255, 255, 255, 1) 0%, rgba(243, 243, 243, 1) 50%, rgba(217, 217, 217, 1) 100%);
+		background: linear-gradient(90deg, rgba(255, 255, 255, 1) 0%, rgba(243, 243, 243, 1) 50%, rgba(217, 217, 217, 1) 100%);
+		filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff",endColorstr="#d9d9d9",GradientType=1);
+	}
+
+	.Register .right-child form {
+		height: 100%;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.Register .left-child img {
+		width: 100%;
+		height: 450px;
+	    padding-left: 0.5em;
+	}
+}
