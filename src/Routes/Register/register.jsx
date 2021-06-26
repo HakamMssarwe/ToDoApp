@@ -1,13 +1,16 @@
 import React, { useState } from "react";
 import "./register.css";
-import {Link} from "react-router-dom";
+import {Link, withRouter} from "react-router-dom";
 import {handleRegister} from './logic.js'
 import {useIsLoading} from '../../Context/IsLoadingContext.js'
 
-export default function Register() {
+
+function Register(props) {
          
 	const [form,setForm] = useState({username:"",password:"",confirmPassword:""})
-    const isLoadingState = useIsLoading();
+	const [errorMessage, setErrorMessage] = useState("");
+    const isLoadingContext = useIsLoading();
+
 
 	return (
 		<div className="Register">
@@ -22,7 +25,8 @@ export default function Register() {
 					<input id="password" type="password" value={form.password} onChange={e => setForm(prevState => ({...prevState, password: e.target.value}))}></input>
 					<label for="confirmPassword">Let us make sure we heard right!</label>
 					<input id="confirmPassword" type="password" value={form.confirmPassword} onChange={e => setForm(prevState => ({...prevState, confirmPassword: e.target.value}))}></input>
-					<button onClick={e => handleRegister(e,form,isLoadingState)}>Become a Member</button>
+					<p className="errorMessage">{errorMessage}</p>
+					<button onClick={e => handleRegister(props,e,form,setErrorMessage,isLoadingContext)}>Become a Member</button>
 					<Link to="/">
 						<p className="redirectMessage">Already a Member? How about you sign in!</p>
 					</Link>
@@ -31,3 +35,5 @@ export default function Register() {
 		</div>
 	);
 }
+
+export default withRouter(Register);

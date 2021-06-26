@@ -6,3 +6,11 @@
 	text-decoration: none;
 	list-style: none;
 }
+
+.errorMessage {
+	color: red !important;
+	width: 70%;
+	margin-bottom: 0.5em;
+	font-size: 0.8em !important;
+	text-align: center;
+}

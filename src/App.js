@@ -5,8 +5,10 @@ import {Register} from "./Routes/index.js";
 import Loading from "./Components/Loading/loading.jsx";
 import {useIsLoading} from "./Context/IsLoadingContext";
 
+
 function App() {
 	const {isLoading} = useIsLoading();
+
 	return (
 		<div className="App">
 				{isLoading && <Loading />}
@@ -17,3 +19,5 @@ function App() {
 }
 
 export default App;
+
+
