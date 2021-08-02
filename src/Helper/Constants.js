@@ -13,3 +13,12 @@ export const USERNAME_LENGTH = 4;
 export const INVALID_USERNAME = "Codenames can only contain letters!";
 export const USERNAME_TAKEN = "Codename already taken, try another!";
 export const SHORT_USERNAME = "Codenames must be at-least 4 characters long!";
+
+
+
+
+
+
+
+
+

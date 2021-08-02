@@ -1,0 +1,16 @@
+C:\Users\Hakamush\source\repos\ToDoApp\ToDoApp\bin\Debug\ToDoApp.dll.config
+C:\Users\Hakamush\source\repos\ToDoApp\ToDoApp\bin\Debug\ToDoApp.dll
+C:\Users\Hakamush\source\repos\ToDoApp\ToDoApp\bin\Debug\ToDoApp.pdb
+C:\Users\Hakamush\source\repos\ToDoApp\ToDoApp\bin\Debug\EntityFramework.dll
+C:\Users\Hakamush\source\repos\ToDoApp\ToDoApp\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Hakamush\source\repos\ToDoApp\ToDoApp\bin\Debug\EntityFramework.xml
+C:\Users\Hakamush\source\repos\ToDoApp\ToDoApp\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Hakamush\source\repos\ToDoApp\ToDoApp\obj\Debug\ToDoApp.csprojAssemblyReference.cache
+C:\Users\Hakamush\source\repos\ToDoApp\ToDoApp\obj\Debug\ToDoApp.csproj.CoreCompileInputs.cache
+C:\Users\Hakamush\source\repos\ToDoApp\ToDoApp\obj\Debug\ToDoApp.csproj.CopyComplete
+C:\Users\Hakamush\source\repos\ToDoApp\ToDoApp\obj\Debug\ToDoApp.dll
+C:\Users\Hakamush\source\repos\ToDoApp\ToDoApp\obj\Debug\ToDoApp.pdb
+C:\Users\Hakamush\source\repos\ToDoApp\ToDoApp\obj\Debug\ToDoApp.Migrations.FirstMiration.resources
+C:\Users\Hakamush\source\repos\ToDoApp\ToDoApp\obj\Debug\ToDoApp.csproj.GenerateResource.cache
+C:\Users\Hakamush\source\repos\ToDoApp\ToDoApp\obj\Debug\ToDoApp.Migrations.UpdatedTaskTable.resources
+C:\Users\Hakamush\source\repos\ToDoApp\ToDoApp\obj\Debug\ToDoApp.Migrations.UpdateDatabaseTables.resources

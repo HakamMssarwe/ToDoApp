@@ -1,0 +1,15 @@
+C:\Users\Hakamush\source\repos\ToDoApp\DatabaseTesting\bin\Debug\DatabaseTesting.exe.config
+C:\Users\Hakamush\source\repos\ToDoApp\DatabaseTesting\bin\Debug\DatabaseTesting.exe
+C:\Users\Hakamush\source\repos\ToDoApp\DatabaseTesting\bin\Debug\DatabaseTesting.pdb
+C:\Users\Hakamush\source\repos\ToDoApp\DatabaseTesting\bin\Debug\EntityFramework.dll
+C:\Users\Hakamush\source\repos\ToDoApp\DatabaseTesting\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Hakamush\source\repos\ToDoApp\DatabaseTesting\bin\Debug\ToDoApp.dll
+C:\Users\Hakamush\source\repos\ToDoApp\DatabaseTesting\bin\Debug\ToDoApp.pdb
+C:\Users\Hakamush\source\repos\ToDoApp\DatabaseTesting\bin\Debug\ToDoApp.dll.config
+C:\Users\Hakamush\source\repos\ToDoApp\DatabaseTesting\bin\Debug\EntityFramework.xml
+C:\Users\Hakamush\source\repos\ToDoApp\DatabaseTesting\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Hakamush\source\repos\ToDoApp\DatabaseTesting\obj\Debug\DatabaseTesting.csprojAssemblyReference.cache
+C:\Users\Hakamush\source\repos\ToDoApp\DatabaseTesting\obj\Debug\DatabaseTesting.csproj.CoreCompileInputs.cache
+C:\Users\Hakamush\source\repos\ToDoApp\DatabaseTesting\obj\Debug\DatabaseTesting.csproj.CopyComplete
+C:\Users\Hakamush\source\repos\ToDoApp\DatabaseTesting\obj\Debug\DatabaseTesting.exe
+C:\Users\Hakamush\source\repos\ToDoApp\DatabaseTesting\obj\Debug\DatabaseTesting.pdb
